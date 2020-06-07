@@ -4,11 +4,16 @@
   "description": "A script to interact with my BLE perihperals",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p ."
   },
   "author": "TSonono",
   "license": "ISC",
   "dependencies": {
     "@abandonware/noble": "^1.9.2-9"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.11",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
   }
 }
